@@ -1,0 +1,21 @@
+Proje-2
+
+Soru:
+[16,21,11,8,12,22] -> Merge Sort
+• Yukaridaki dizinin sort türüne göre asamalarini yaziniz.
+• Big-O gösterimini yaziniz.
+
+Cevap:
+
+                  [16,21,11,8,12,22]
+[16,21,11]                                [8,12,22]
+[16,21]    [11]                          [8,12]    [22]
+[16]    [21]    [11]                    [8]     [12]    [22]
+[16,21]     [11]                         [8,12]      [22]
+[11,16,21]                                [8,12,22]
+                  [8,11,12,16,21,22]
+
+Big-O Gösterimi: Her bir satirda O(n) geliyor.
+                             2x=n
+                              logn=x
+                              Sonuç olarak O(n*logn) geliyor.
